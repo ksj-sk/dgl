@@ -23,6 +23,9 @@ project = 'DGL'
 copyright = '2018, DGL Team'
 author = 'DGL Team'
 
+# banner message
+scv_show_banner = True
+
 import dgl
 version = dgl.__version__
 release = dgl.__version__
