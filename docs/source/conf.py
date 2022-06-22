@@ -51,7 +51,11 @@ extensions = [
     'sphinx.ext.graphviz',
     'sphinx_gallery.gen_gallery',
     'sphinx_copybutton',
+    'versionwarning.extension',
 ]
+
+versionwarning_project_version = 'rying_test'
+versionwarning_project_slug = 'sphinx-version-warning'
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
